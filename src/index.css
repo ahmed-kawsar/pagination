@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  background-color: #010;
+  color: white;
+}
+
+.App {
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: grid;
+  gap: 0.7em;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  border: none;
+  padding: 0.6em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.post {
+  background-color: blue;
+  padding: 1em;
+  outline: 1px solid white;
+}
